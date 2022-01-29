@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item1, .item2, .item3 {
+  min-width: 300px;
+}

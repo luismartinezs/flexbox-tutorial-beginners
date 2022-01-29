@@ -1,0 +1,35 @@
+.container {
+  /* TODO 1: Flexboxes are used to create layouts with items in one dimension (either rows or columns)
+
+  Turn this element into a flexbox with "display: flex;"
+
+  Now save this file, and take a look at the browser window (you might need to refresh the browser).
+
+  Get used to do this. After a change, save, and see what that change does.
+
+  So, what happened?
+
+  Children are displayed in a row. That's because by default the children of flexboxes are displayed in rows.
+
+  I'd tell you to write a note about this in your cheatsheet, but it's already there!
+  */
+
+  /* TODO 2: use the justify-content property to center its children: "justify-content: center;"
+
+  Justify-content positions the children elements inside the flexbox along the "main axis".
+
+  Usual values of justify-content are:
+    center (center children)
+    flex-start (position children at the start / left side)
+    flex-end (position children at the end / right side)
+    space-between (position children leaving space in between them)
+
+  The main axis is the horizontal axis, by default.
+
+  Write one short sentence in your cheatsheet about justify-content and the main axis.
+
+  Read more about justify-content: https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
+
+  Read more about the flexbox main axis: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#the_main_axis
+  */
+}
