@@ -11,13 +11,19 @@
   .container {
     /* TODO 3: For widths smaller than 900px, let the items wrap to the next row */
   }
-  .item1, .item2, .item3, .item4 {
+  .item1,
+  .item2,
+  .item3,
+  .item4 {
     /* TODO 4: Show two children per row, each filling half of the width of the flexbox */
   }
 }
 
 @media all and (max-width: 560px) {
-  .item1, .item2, .item3, .item4 {
+  .item1,
+  .item2,
+  .item3,
+  .item4 {
     /* TODO 5: For very narrow screens (< 560px), let's have one element per row. */
   }
   .item3 {

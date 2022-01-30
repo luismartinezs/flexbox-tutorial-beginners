@@ -23,7 +23,10 @@
     I've already written the media query for you
     */
   }
-  .item1, .item2, .item3, .item4 {
+  .item1,
+  .item2,
+  .item3,
+  .item4 {
     /* TODO 4: For narrow screens, the layout doesn't look good anymore.
 
     Let's have all children have the same size, and have two in the first row and two in the second row.
@@ -43,7 +46,10 @@
 
 @media all and (max-width: 560px) {
   /* Another media query, telling the browser to apply these styles only for screens no wider than 560px */
-  .item1, .item2, .item3, .item4 {
+  .item1,
+  .item2,
+  .item3,
+  .item4 {
     /* TODO 5: For very narrow screens (< 560px) the layout looks cramped again. Let's fix it. I wrote the media query for you.
 
     Let's have one element per row.

@@ -10,19 +10,21 @@
 @media all and (max-width: 900px) {
   /* TODO 3: For windows narrower than 900px, items wrap. There are two items per row, each filling 50% of the flexbox width */
   .container {
-
   }
-  .item1, .item2, .item3, .item4 {
-
+  .item1,
+  .item2,
+  .item3,
+  .item4 {
   }
 }
 
 @media all and (max-width: 560px) {
   /* TODO 4: For very narrow windows (< 560px), there is one item per row, and item 3 shows up last */
-  .item1, .item2, .item3, .item4 {
-
+  .item1,
+  .item2,
+  .item3,
+  .item4 {
   }
   .item3 {
-
   }
 }
