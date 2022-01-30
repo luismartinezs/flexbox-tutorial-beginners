@@ -1,0 +1,122 @@
+.sol-a.container {
+  display: flex;
+  justify-content: center;
+}
+
+.sol-b.container {
+  display: flex;
+}
+
+.sol-b.item1 {
+  margin-right: auto;
+}
+.sol-c.container {
+  display: flex;
+}
+
+.sol-c.item2 {
+  flex: 1;
+}
+
+.sol-d.container {
+  display: flex;
+}
+
+.sol-d.item1 {
+  flex: 1;
+}
+
+.sol-d.item3 {
+  flex: 1;
+}
+
+.sol-e.container {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sol-e.item1 {
+  align-self: flex-end;
+}
+
+.sol-e.item3 {
+  align-self: flex-start;
+}
+
+.sol-f.container {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.sol-g.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sol-g.item1, .sol-g.item2, .sol-g.item3 {
+  min-width: 300px;
+}
+
+.sol-h.container {
+  display: flex;
+}
+
+.sol-h.item1 {
+  flex: 1 1 500px;
+}
+
+.sol-h.item2 {
+  flex: 10 10 500px;
+}
+
+
+.sol-i {
+}
+
+.sol-i.container {
+  display: flex;
+}
+
+.sol-i.item1 {
+  order: 1;
+}
+
+.sol-i.item2 {
+  order: 0;
+}
+
+.sol-i.item3 {
+  order: -1;
+}
+
+.sol-j.container {
+  font-size: 2rem;
+  display: flex;
+}
+
+.sol-j.item3 {
+  flex: 1;
+}
+
+@media all and (max-width: 900px) {
+  .sol-j.container {
+    flex-wrap: wrap;
+  }
+  .sol-j.item1, .sol-j.item2, .sol-j.item3, .sol-j.item4 {
+    flex: 1 1 50%;
+  }
+}
+
+@media all and (max-width: 560px) {
+  .sol-j.item1, .sol-j.item2, .sol-j.item3, .sol-j.item4 {
+    flex: 1 1 100%;
+  }
+  .sol-j.item3 {
+    order: 1;
+  }
+}

@@ -35,6 +35,7 @@ ul {
 
 .title {
   color: var(--primary-100);
+  font-size: 1.8rem;
 }
 
 .container {
